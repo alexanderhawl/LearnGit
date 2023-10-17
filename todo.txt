@@ -1,2 +1,6 @@
 There are something to do.
 只有add的修改才会被记录，没有add的修改，没办法恢复
+git好像不支持https，所以add oring，即添加远程库的时候，不要用
+git remote add origin https://github.com/alexanderhawl/LearnGit.git
+而是要用
+git remote add origin git@github.com:alexanderhawl/LearnGit.git
